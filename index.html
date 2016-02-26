@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Vibby Unrivaled</title>
+    <meta name="description" content="{{ page.description }}">
+      <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.canonical }}">
+    <link rel="icon" href="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} &mdash; vibby.com">
+    <meta property="og:url" content="https://www.vibby.com">
+    <meta property="og:site_name" content="Vibby">
+    <meta property="og:description" content="Every second counts. Intelligent playback of highlights cuts the fluff and saves you time. Smooth conversation flow and one-click social sharing help you connect with friends. Easy-to-use platform makes creating and sharing highlights a breeze.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://s3-eu-west-1.amazonaws.com/vibby-static/vibby-landing-page-fb-preview.png">
+    <meta name="google-site-verification" content="G0GQH2TQnk4IghCGXrQdUNZhbSydhbYfUQBVfMPkA5c" />
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#0087EF">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#0087EF">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <!-- Google font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700' rel='stylesheet' type='text/css'>
+</head>
+<style>
+    html,body{
+        margin:0;
+        padding: 0;
+        height: 100%;
+        min-height: 100vh;
+    }
+    body{
+        font-family:"Roboto",Arial,sans-serif;
+        font-size: 22px;
+        color:#fff;
+        line-height: 1.8;
+    }
+    .container{
+        background: url('smite-background.jpg') no-repeat;
+        background-size: cover;
+        background-position: center center;
+        min-height: 100%;
+        padding: 0px 30px;
+        text-align: right;
+    }
+    .cta__primary--big{
+        padding: 10px 25px;
+        background-color: #2ca3ff;
+        display: inline-block;
+        border: none;
+        border-radius: 2px;
+        text-decoration: none;
+        color: #FFF;
+        margin:0 20px 20px 0;
+        font-size: 18px;
+    }
+    a{
+        color:#2ca3ff;
+        text-decoration: none;
+    }
+    h1{
+        font-size: 72px;
+    }
+    @media screen and (max-width: 600px){
+        h1{
+            font-size: 40px;
+        }
+    }
+</style>
+<body>
+<div class="container">
+    <br><br><br>
+    <h1>Vibby Unrivaled</h1>
+    <p>Smite Pre-Season League (X-Box One), February 29 - March 21
+    <br>
+    Every Monday and Thursday @ 7PM EST.
+    <br>
+    With commentary from MLG Pro League shoutcasters Spoon & Ravage.
+    <br>
+    Prizes provided by <a href="https://www.vibby.com/create">Vibby</a>, Giveaways provided by <a href="http://smite.guru/">SmiteGuru</a>.</p>
+    <br><br><br>
+    <a href="https://www.vibby.com/create" class="cta__primary--big z-shadow-1"><i class="fa fa-plus-circle"></i>Create a Highlight</a>
+    <a href="http://www.twitch.tv/smitegame" class="cta__primary--big z-shadow-1"><i class="fa fa-plus-circle"></i>Watch Live on Twitch</a>
+</div>
+</body>
+</html>
